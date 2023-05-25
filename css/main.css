@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.clr {
+    clear: both;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    color: #686868;
+}
+
+h2,
+h3,
+h4 {
+    font-weight: 400;
+}
+
+/* Start Nav-bar  */
+.nav-bar {
+    background-color: transparent;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.nav-bar .logo {
+    width: 30%;
+    display: inline-block;
+}
+
+.nav-bar .logo img {
+    height: 48px;
+    padding-left: 80px;
+    vertical-align: middle;
+}
+
+.nav-bar .section {
+    width: 60%;
+    height: 48px;
+    display: inline-block;
+    text-align: end;
+}
+
+.nav-bar .section a {
+    margin-right: 30px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 48px;
+}
+
+.nav-bar .section a:hover {
+    color: #a1865e;
+}
+
+/* End Nav-bar  */
+
+/* Start intro */
+#home {
+    height: 100vh;
+    background-image: url('http://www.engage.veented.com/bakery/wp-content/uploads/sites/27/2017/04/drew-coffman-1872.jpg');
+    background-size: 100% 100%;
+}
+
+#home .intro {
+    text-align: center;
+    padding-top: 190px;
+    color: #fff !important;
+}
+
+#home .intro h1 {
+    font-family: 'Darumadrop One', cursive, sans-serif;
+    font-size: 70px;
+    font-weight: 300;
+    padding-bottom: 20px;
+
+}
+
+#home .intro p {
+    font-size: 22px;
+    white-space: pre-line;
+    color: #fff !important;
+
+}
+
+#home .intro button {
+    margin-top: 30px;
+    padding: 15px 28px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#home .intro button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#home .intro .btn1 {
+    background-color: #8e7754;
+
+    border-style: none;
+    border-radius: 5px;
+}
+
+#home .intro .btn2 {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+
+/* End Intro */
+
+/* Start About  */
+
+#about {
+    background-color: #fff;
+    height: 100vh;
+    padding-top: 30px;
+
+}
+
+#about .about-img {
+    display: inline-block;
+    width: 40%;
+    padding: 80px;
+
+}
+
+#about img {
+    width: 100%;
+
+}
+
+#about .about-info {
+    display: inline-block;
+    width: 40%;
+    color: #686868;
+    vertical-align: 100px;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+#about .about-info h2 {
+    color: #303030;
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#about .about-info p {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+#about .about-info ul {
+    font-size: 17px;
+    line-height: 60px;
+    margin-top: 15px;
+}
+
+#about .about-info ul li i {
+    border: 1px solid rgb(104 104 104 / 40%);
+    color: #8e7754;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+
+/* End About  */
+
+/* Start Location */
+
+#location {
+    background-color: #f8f8f8;
+    height: 100vh;
+    padding-top: 80px;
+
+}
+
+#location .location-info {
+    display: inline-block;
+    width: 40%;
+    color: #686868;
+    vertical-align: 90px;
+    padding: 80px;
+
+}
+
+#location .location-info h2 {
+    color: #303030;
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#location .location-info p {
+    font-size: 17px;
+    line-height: 30px;
+    white-space: pre-line;
+}
+
+#location .location-img {
+    display: inline-block;
+    width: 40%;
+    padding-right: 30px;
+
+}
+
+#location .location-img img {
+    width: 100%;
+}
+
+/* End Location */
+
+
+/* Start Baking  */
+
+#baking {
+    background-color: #fff;
+    height: 100vh;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#baking h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#baking .product {
+    float: left;
+    width: 32%;
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+#baking .product img {
+    width: 80%;
+}
+
+#baking .product h4 {
+    font-size: 22px;
+    padding: 15px;
+}
+
+#baking .product p {
+    font-size: 17px;
+    line-height: 30px;
+    padding: 15px;
+}
+
+/* End Baking  */
+
+
+
+/* Start Contact */
+#contact {
+    height: 100vh;
+    background-color: #f8f8f8;
+    padding-top: 100px;
+
+}
+
+#contact .info {
+    float: left;
+    width: 40%;
+    padding-left: 80px;
+}
+
+#contact .mapouter {
+    float: left;
+    width: 40%;
+    padding-left: 40px;
+}
+
+#contact .info h2 {
+    color: #303030;
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#contact .info p {
+    font-size: 17px;
+    line-height: 30px;
+    white-space: pre-line;
+}
+
+#contact .info ul {
+    font-size: 17px;
+    line-height: 30px;
+    white-space: pre-line;
+}
+
+#contact .info ul li {
+    color: #686868;
+}
+
+#contact .info ul li i {
+    background-color: #8e7754;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+
+/* End Contact */
+
+/* Start Footer */
+#footer {
+    height: 80vh;
+    background-color: #403d38;
+}
+
+#footer .info {
+    float: left;
+    width: 20%;
+    padding-left: 40px;
+    padding-top: 80px;
+}
+
+#footer .info h4 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#footer .info p {
+    white-space: pre-line;
+    line-height: 25px;
+    color: #969696;
+}
+
+#footer .info ul {
+    color: #969696;
+    line-height: 25px;
+    padding: 0;
+
+}
+
+#footer .info ul a {
+    text-decoration: none;
+    color: #969696;
+}
+
+#footer .info ul .line {
+    margin: 10px;
+    margin-left: 0;
+    background-color: rgb(104 104 104 / 40%);
+    height: 1px;
+    width: 221px;
+
+}
+
+#footer .info ul i {
+    margin-right: 5px;
+}
+
+/* End Footer */
+
+/* Start Social  */
+#social {
+    text-align: center;
+    background-color: #353330;
+    height: 40vh;
+    padding-top: 100px;
+}
+
+#social p {
+    padding: 30px;
+    font-size: 15px;
+}
+
+
+#social a {
+    margin: 5px;
+    height: 40px;
+
+}
+
+#social a i {
+    background-color: #484540;
+    color: #969696;
+    font-size: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#social a .fa-facebook:hover {
+    background-color: #3a5998;
+    color: #fff;
+}
+
+#social a .fa-google-plus:hover {
+    background-color: #b02e20;
+    color: #fff;
+}
+
+#social a .fa-linkedin:hover {
+    background-color: #007ab9;
+    color: #fff;
+}
+
+#social a .fa-twitter:hover {
+    background-color: #00aced;
+    color: #fff;
+}
+
+
+/* End Social  */
